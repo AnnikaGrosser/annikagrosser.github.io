@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Title — Annika Grosser</title>
+  <meta name="description" content="Methodology for: Project Title.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="../index.html">Annika Grosser</a>
+      <nav class="nav social" aria-label="Contact and profiles">
+        <a href="mailto:annika.grosser@bbc.co.uk" aria-label="Email" title="Email">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </a>
+        <a href="https://github.com/annikagrosser" aria-label="GitHub" title="GitHub">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.2.8.8 1.2 1.9 1.2 3.1 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/annikagrosser" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <header class="case-header">
+      <a class="back" href="../index.html#work">← all investigations</a>
+      <h1>Fourth investigation headline</h1>
+      <p class="deck">A one-paragraph summary: what happened, what the investigation established, and what changed because of it.</p>
+      <div class="links">
+        <a class="btn primary" href="https://www.example.com/the-story">Read the story ↗</a>
+        <a class="btn" href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the video ↗</a>
+      </div>
+    </header>
+
+    <!-- HERO MEDIA. Use ONE of the options:
+         (a) a still image:
+             <figure class="media"><img src="../images/project-1/hero.jpg" alt="..."><figcaption>Source: …</figcaption></figure>
+         (b) an embedded video (YouTube shown; for Vimeo use https://player.vimeo.com/video/ID):
+             <figure class="media"><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="..." allowfullscreen loading="lazy"></iframe></div><figcaption>…</figcaption></figure> -->
+    <figure class="media">
+      <div class="thumb-placeholder" style="aspect-ratio:16/9">hero image or embedded video</div>
+      <figcaption>Caption · Imagery © Provider, date</figcaption>
+    </figure>
+
+    <div class="case-grid">
+      <!-- FACT BOX -->
+      <aside class="factbox" aria-label="Project details">
+        <dl>
+          <dt>Outlet</dt><dd>Outlet Name</dd>
+          <dt>Published</dt><dd>Month DD, YYYY</dd>
+          <dt>Format</dt><dd>Video investigation</dd>
+          <dt>My role</dt><dd>Lead OSINT researcher; geolocation, data analysis</dd>
+          <dt>With</dt><dd>Collaborator A, Collaborator B</dd>
+          <dt>Tools</dt><dd>Google Earth Pro, Planet, QGIS, Python</dd>
+        </dl>
+        <nav class="toc" aria-label="On this page">
+          <a href="#overview">01 overview</a>
+          <a href="#sources">02 sources &amp; data</a>
+          <a href="#techniques">03 tools &amp; techniques</a>
+          <a href="#verification">04 verification</a>
+          <a href="#role">05 role &amp; collaborators</a>
+          <a href="#impact">06 impact</a>
+        </nav>
+      </aside>
+
+      <!-- METHODOLOGY -->
+      <article class="prose">
+        <section id="overview">
+          <h2><span class="num">01</span> Overview</h2>
+          <p>The question you set out to answer, and why open-source methods were the right way to answer it. Keep it short: 1–2 paragraphs.</p>
+          <div class="callout">
+            <span class="label">Key finding</span>
+            The single most important thing the investigation established, in one or two sentences.
+          </div>
+        </section>
+
+        <section id="sources">
+          <h2><span class="num">02</span> Sources &amp; data</h2>
+          <p>What evidence you collected and how you found it.</p>
+          <div class="table-scroll">
+            <table class="data-table">
+              <thead><tr><th>Source</th><th>What it showed</th><th>Volume</th></tr></thead>
+              <tbody>
+                <tr><td>Social media video</td><td>Eyewitness footage of the event</td><td>~40 clips</td></tr>
+                <tr><td>Satellite imagery</td><td>Before/after damage</td><td>12 scenes</td></tr>
+                <tr><td>Public records</td><td>Ownership / contracts</td><td>300 docs</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="techniques">
+          <h2><span class="num">03</span> Tools &amp; techniques</h2>
+          <h3>Geolocation</h3>
+          <p>How you matched footage to a precise location: landmarks, terrain, building outlines, and so on.</p>
+          <figure>
+            <div class="thumb-placeholder" style="aspect-ratio:16/9">side-by-side: video frame vs. satellite</div>
+            <figcaption>Fig. 1 — Frame from video (left) matched to satellite imagery (right).</figcaption>
+          </figure>
+          <h3>Chronolocation</h3>
+          <p>How you established time: shadows (e.g. SunCalc), metadata, weather records, cross-referenced uploads.</p>
+          <h3>Data analysis</h3>
+          <p>Any code or quantitative work. Link to a repo or notebook if you can share it: <code>github.com/you/repo</code>.</p>
+        </section>
+
+        <section id="verification">
+          <h2><span class="num">04</span> Verification</h2>
+          <ul>
+            <li>How each key claim was corroborated by at least two independent sources.</li>
+            <li>Experts consulted (e.g. weapons, forensic architecture, acoustics).</li>
+            <li>Right of reply: who was asked to comment and how they responded.</li>
+          </ul>
+          <h3>Limitations</h3>
+          <p>What the evidence couldn't establish. Being upfront here builds credibility.</p>
+        </section>
+
+        <section id="role">
+          <h2><span class="num">05</span> Role &amp; collaborators</h2>
+          <p>Exactly what you did versus what the team did. Name your collaborators and editors.</p>
+        </section>
+
+        <section id="impact">
+          <h2><span class="num">06</span> Impact</h2>
+          <p>Follow-up coverage, official responses, awards, policy changes, citations.</p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span class="mono">© 2026 Annika Grosser</span>
+    </div>
+  </footer>
+
+</body>
+</html>
