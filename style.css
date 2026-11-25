@@ -247,9 +247,14 @@ figcaption { font-family: var(--mono); font-size: 0.74rem; color: var(--faint); 
 
 /* ---------- Coming soon ---------- */
 .wrap.coming-soon { min-height: calc(100vh - 160px); padding-top: 56px; padding-bottom: 64px; display: flex; flex-direction: column; align-items: flex-start; }
-.coming-soon .status { margin: 48px 0 10px; }
-.coming-soon .soon-outlet { color: var(--muted); margin: 0; }
+.coming-soon .status { margin: 32px 0 4px; }
+.coming-soon .soon-outlet { color: var(--muted); margin: 48px 0 0; }
 .coming-soon h1 { font-size: clamp(1.8rem, 4.2vw, 2.8rem); line-height: 1.15; margin: 8px 0 16px; font-weight: 600; letter-spacing: -0.015em; max-width: 26ch; }
+
+.soon-thumb { display: block; width: 100%; max-width: 720px; margin: 8px 0 24px; }
+.soon-thumb img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--border); transition: border-color .15s; }
+.soon-thumb:hover img { border-color: var(--accent); }
+.coming-soon .soon-note { font-size: 1rem; margin-top: 0; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
